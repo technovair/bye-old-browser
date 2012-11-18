@@ -118,14 +118,15 @@ if(isOldBrowser){
         'position:absolute;' +
         'z-index:100000;' +
         'width:100%;' +
-        'height:26px;' +
+        'height:70px;' +
         'top:0;' +
         'left:0;' +
         'overflow:hidden;' +
         'padding:8px 0;' +
-        'font:18px/26px Tahoma,sans-serif;' +
+        'font:14px Tahoma,sans-serif;' +
         'text-align:center;' +
         'color:#FFF' +
+        'line-height:22px'+
       '}' +
       '#bye-old-browser a {' +
         'text-decoration:underline;' +
@@ -177,7 +178,7 @@ if(isOldBrowser){
       head.insertBefore( style, firstChild );
       var message = document.createElement( 'div' );
       message.id = 'bye-old-browser';
-      message.innerHTML = "";
+      message.innerHTML = "مرورگر اینترنتی شما قدیمی و نا امن است <br/> برای مشاهده این وب سایت و بسیاری از وب سایت های دیگر و حفظ امنیت خود همین حالا مرورگر خود را بروز کنید<br/><a href='http://www.whatbrowser.org/intl/fa' target='_blank'>بروزرسانی و اطلاعات بیشتر</a> ";
       /**
        * Create close button
        */
