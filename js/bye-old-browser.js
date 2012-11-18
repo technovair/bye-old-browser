@@ -9,7 +9,7 @@
 // Developed by Robert Nyman/DOMAssistant team, code/licensing: http://domassistant.googlecode.com/, documentation: http://www.domassistant.com/documentation. Module inspiration by Dean Edwards, Matthias Miller, and John Resig: http://dean.edwards.name/weblog/2006/06/again/
 /*global DOMAssistant */
 
-var DOMAssistant = function () {}
+var DOMAssistant = function () {};
 DOMAssistant.DOMLoad = function () {
 	var DOMLoaded = false,
 	DOMLoadTimer = null,
@@ -125,7 +125,7 @@ if(isOldBrowser){
         'padding:8px 0;' +
         'font:14px Tahoma,sans-serif;' +
         'text-align:center;' +
-        'color:#FFF' +
+        'color:#FFF;' +
         'line-height:22px'+
       '}' +
       '#bye-old-browser a {' +
